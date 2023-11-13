@@ -4,9 +4,8 @@ html {
 }
 
 .flowContent {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flowContent div {
@@ -16,7 +15,16 @@ html {
     height: 200px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1px) {
+    .flowContent {
+        width: 300px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 601px) {
     .flowContent {
         width: 500px;
         flex-wrap: wrap;
@@ -25,7 +33,7 @@ html {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
     .flowContent {
         width: 900px;
         flex-wrap: wrap;
@@ -35,7 +43,7 @@ html {
 }
  
 
-@media (min-width: 1600px) {
+@media (min-width: 1601px) {
     .flowContent {
         width: 1400px;
         flex-wrap: wrap;
