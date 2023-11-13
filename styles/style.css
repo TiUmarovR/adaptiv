@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.contentHolder {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.flowContent {
+    width: 900px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.flowContent div {
+    margin: 10px;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width: 600px) {
+    .flowContent {
+        width: 500px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flowContent {
+        width: 900px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+ 
+
+@media (min-width: 1600px) {
+    .flowContent {
+        width: 1400px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
